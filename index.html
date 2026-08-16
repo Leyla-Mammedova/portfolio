@@ -839,7 +839,7 @@
     <div class="eyebrow" data-i18n="projects.eyebrow">TRANSMISSION LOG</div>
     <h2 data-i18n="projects.title">Dispatches</h2>
     <p class="section-intro" data-i18n="projects.intro">
-      Four builds, four different kinds of interference — an unstable market, a hospital's paperwork, a server bill, and one still on the drawing board. Each one is a routing problem in disguise.
+      Four builds, four different kinds of interference — an unstable market, shared family money, a browser battlefield, and a server bill that got too loud. Each one is a routing problem in disguise.
     </p>
     <div class="project-list">
       <!-- 1 Crypto -->
@@ -867,37 +867,68 @@
         </div>
       </article>
 
-      <!-- 2 SmartClinic -->
+      <!-- 2 Family Finance -->
       <article class="project">
         <div class="project-viz" aria-hidden="true">
           <svg viewBox="0 0 88 88">
-            <rect x="8" y="12" width="72" height="64" rx="2" />
-            <line x1="8" y1="28" x2="80" y2="28" />
-            <line x1="28" y1="28" x2="28" y2="76" />
-            <circle cx="18" cy="20" r="2" fill="currentColor" stroke="none" />
-            <circle cx="26" cy="20" r="2" fill="currentColor" stroke="none" />
-            <line x1="36" y1="40" x2="68" y2="40" />
-            <line x1="36" y1="50" x2="60" y2="50" />
-            <line x1="36" y1="60" x2="64" y2="60" />
+            <rect x="14" y="52" width="12" height="24" />
+            <rect x="32" y="36" width="12" height="40" />
+            <rect x="50" y="22" width="12" height="54" />
+            <rect x="68" y="44" width="12" height="32" />
+            <line x1="10" y1="78" x2="84" y2="78" opacity="0.4" />
+            <polyline points="20,48 38,32 56,18 74,40" opacity="0.7" />
           </svg>
         </div>
         <div>
           <div class="project-head">
-            <h3 class="project-title" data-i18n="p2.title">SmartClinic — Clinic Management System</h3>
+            <h3 class="project-title" data-i18n="p2.title">Family Finance</h3>
             <span class="badge" data-i18n="p2.badge">SHIPPED</span>
           </div>
           <p class="project-desc" data-i18n="p2.desc">
-            A four-role clinic management system built for a university group project — receptionist, nurse, doctor, and admin workflows integrated into one Python application, with a full patient flow from check-in to prescription.
+            A finished family finance app for tracking shared budgets, expenses, and spending across household members — built so the numbers stay clear when more than one person is moving money around.
           </p>
           <div class="tags">
-            <span class="tag">PYTHON</span>
-            <span class="tag">SYSTEM DESIGN</span>
-            <span class="tag">MULTI-ROLE AUTH</span>
+            <span class="tag">NODE.JS</span>
+            <span class="tag">POSTGRESQL</span>
+            <span class="tag">WEB APP</span>
+            <span class="tag">FINANCE</span>
           </div>
         </div>
       </article>
 
-      <!-- 3 Self-hosted -->
+      <!-- 3 MOBA Arena -->
+      <article class="project">
+        <div class="project-viz" aria-hidden="true">
+          <svg viewBox="0 0 88 88">
+            <polygon points="44,10 74,44 44,78 14,44" />
+            <circle cx="44" cy="44" r="8" />
+            <circle cx="28" cy="30" r="4" />
+            <circle cx="60" cy="30" r="4" />
+            <circle cx="28" cy="58" r="4" />
+            <circle cx="60" cy="58" r="4" />
+          </svg>
+        </div>
+        <div>
+          <div class="project-head">
+            <h3 class="project-title" data-i18n="p3.title">MOBA Arena</h3>
+            <span class="badge" data-i18n="p3.badge">SHIPPED</span>
+          </div>
+          <p class="project-desc" data-i18n="p3.desc">
+            A browser-based multiplayer MOBA in the spirit of Mobile Legends — hero select, rooms, bots filling empty slots, item shop, and live matches playable without installing anything.
+          </p>
+          <p class="project-detail" data-i18n="p3.detail">
+            Play at <a href="https://mobile-legends.leyla.website" target="_blank" rel="noopener">mobile-legends.leyla.website</a>.
+          </p>
+          <div class="tags">
+            <span class="tag">NODE.JS</span>
+            <span class="tag">MULTIPLAYER</span>
+            <span class="tag">BROWSER GAME</span>
+            <span class="tag">REAL-TIME</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4 Self-hosted -->
       <article class="project">
         <div class="project-viz" aria-hidden="true">
           <svg viewBox="0 0 88 88">
@@ -914,47 +945,20 @@
         </div>
         <div>
           <div class="project-head">
-            <h3 class="project-title" data-i18n="p3.title">Self-Hosted Server Infrastructure</h3>
-            <span class="badge" data-i18n="p3.badge">RUNNING</span>
+            <h3 class="project-title" data-i18n="p4.title">Self-Hosted Server Infrastructure</h3>
+            <span class="badge" data-i18n="p4.badge">RUNNING</span>
           </div>
-          <p class="project-desc" data-i18n="p3.desc">
+          <p class="project-desc" data-i18n="p4.desc">
             Moved five-plus deployed projects off Railway onto a headless home server after cloud costs crept up — sourcing the hardware, configuring storage, and standing up a Python service pipeline from scratch.
           </p>
-          <p class="project-detail" data-i18n="p3.detail">
-            Live via Cloudflare Tunnel on <a href="https://leyla.website" target="_blank" rel="noopener">leyla.website</a>: trading bot, Wirebound game, multiplayer MOBA, planner tool, and scanner bot.
+          <p class="project-detail" data-i18n="p4.detail">
+            Live via Cloudflare Tunnel on <a href="https://leyla.website" target="_blank" rel="noopener">leyla.website</a>: trading bot, Wirebound game, MOBA Arena, Family Finance, and scanner bot.
           </p>
           <div class="tags">
             <span class="tag">LINUX</span>
             <span class="tag">SELF-HOSTING</span>
             <span class="tag">DEVOPS</span>
             <span class="tag">COST ENGINEERING</span>
-          </div>
-        </div>
-      </article>
-
-      <!-- 4 Messenger -->
-      <article class="project">
-        <div class="project-viz" aria-hidden="true">
-          <svg viewBox="0 0 88 88">
-            <path d="M12 24h48a4 4 0 014 4v28a4 4 0 01-4 4H28l-12 10V28a4 4 0 014-4z" />
-            <line x1="24" y1="38" x2="52" y2="38" opacity="0.5" />
-            <line x1="24" y1="48" x2="44" y2="48" opacity="0.5" />
-            <circle cx="72" cy="28" r="10" stroke-dasharray="3 3" />
-          </svg>
-        </div>
-        <div>
-          <div class="project-head">
-            <h3 class="project-title" data-i18n="p4.title">Messenger for Turkmenistan</h3>
-            <span class="badge neutral" data-i18n="p4.badge">EARLY CONCEPT</span>
-          </div>
-          <p class="project-desc" data-i18n="p4.desc">
-            An early-stage idea for a messenger that could work inside a country with heavy network restrictions. Still in the research and design phase — sketching out requirements and possible architecture, not yet built.
-          </p>
-          <div class="tags">
-            <span class="tag">FLUTTER</span>
-            <span class="tag">NODE.JS</span>
-            <span class="tag">SELF-HOSTED</span>
-            <span class="tag">RESEARCH PHASE</span>
           </div>
         </div>
       </article>
@@ -1003,7 +1007,7 @@
           I work fast and I work close to the metal for a self-taught engineer — comfortable reading logs, debugging async code at 2am, and standing up my own infrastructure instead of waiting on a platform to do it for me.
         </p>
         <p data-i18n="about.p3">
-          Right now I'm looking for freelance web and software development work — landing pages, bots, backend systems — while I keep building the messenger project in the background.
+          Right now I'm looking for freelance web and software development work — landing pages, bots, backend systems — while I keep shipping and hardening the apps already running on my own server.
         </p>
       </div>
       <div>
@@ -1088,20 +1092,21 @@
         "calc.note": "{n} of my own apps run on one server for about {pct}% less than cloud hosting would cost.",
         "projects.eyebrow": "TRANSMISSION LOG",
         "projects.title": "Dispatches",
-        "projects.intro": "Four builds, four different kinds of interference — an unstable market, a hospital's paperwork, a server bill, and one still on the drawing board. Each one is a routing problem in disguise.",
+        "projects.intro": "Four builds, four different kinds of interference — an unstable market, shared family money, a browser battlefield, and a server bill that got too loud. Each one is a routing problem in disguise.",
         "p1.title": "Crypto Signal Bot",
         "p1.badge": "SHIPPED",
         "p1.desc": "A Telegram bot that turns TradingView webhook alerts into real-time trading signal notifications. Rebuilt the async event loop to stop it dropping messages under load, fixed timing bugs, and added dynamic symbol detection so it works for any ticker without redeploying.",
-        "p2.title": "SmartClinic — Clinic Management System",
+        "p2.title": "Family Finance",
         "p2.badge": "SHIPPED",
-        "p2.desc": "A four-role clinic management system built for a university group project — receptionist, nurse, doctor, and admin workflows integrated into one Python application, with a full patient flow from check-in to prescription.",
-        "p3.title": "Self-Hosted Server Infrastructure",
-        "p3.badge": "RUNNING",
-        "p3.desc": "Moved five-plus deployed projects off Railway onto a headless home server after cloud costs crept up — sourcing the hardware, configuring storage, and standing up a Python service pipeline from scratch.",
-        "p3.detail": 'Live via Cloudflare Tunnel on <a href="https://leyla.website" target="_blank" rel="noopener">leyla.website</a>: trading bot, Wirebound game, multiplayer MOBA, planner tool, and scanner bot.',
-        "p4.title": "Messenger for Turkmenistan",
-        "p4.badge": "EARLY CONCEPT",
-        "p4.desc": "An early-stage idea for a messenger that could work inside a country with heavy network restrictions. Still in the research and design phase — sketching out requirements and possible architecture, not yet built.",
+        "p2.desc": "A finished family finance app for tracking shared budgets, expenses, and spending across household members — built so the numbers stay clear when more than one person is moving money around.",
+        "p3.title": "MOBA Arena",
+        "p3.badge": "SHIPPED",
+        "p3.desc": "A browser-based multiplayer MOBA in the spirit of Mobile Legends — hero select, rooms, bots filling empty slots, item shop, and live matches playable without installing anything.",
+        "p3.detail": 'Play at <a href="https://mobile-legends.leyla.website" target="_blank" rel="noopener">mobile-legends.leyla.website</a>.',
+        "p4.title": "Self-Hosted Server Infrastructure",
+        "p4.badge": "RUNNING",
+        "p4.desc": "Moved five-plus deployed projects off Railway onto a headless home server after cloud costs crept up — sourcing the hardware, configuring storage, and standing up a Python service pipeline from scratch.",
+        "p4.detail": 'Live via Cloudflare Tunnel on <a href="https://leyla.website" target="_blank" rel="noopener">leyla.website</a>: trading bot, Wirebound game, MOBA Arena, Family Finance, and scanner bot.',
         "term.eyebrow": "INTERACTIVE",
         "term.title": "Query the system",
         "term.intro": 'This part talks back. Type <code>help</code> to see what it knows.',
@@ -1111,7 +1116,7 @@
         "about.title": "How I work",
         "about.p1": "I'm a software engineering student at APU in Kuala Lumpur, and Vice President of the Turkmen student society there. <b>Most of what I build starts from a constraint, not a feature list</b> — a country that blocks apps, a cloud bill that got too big, a market that moves faster than a person can watch it.",
         "about.p2": "I work fast and I work close to the metal for a self-taught engineer — comfortable reading logs, debugging async code at 2am, and standing up my own infrastructure instead of waiting on a platform to do it for me.",
-        "about.p3": "Right now I'm looking for freelance web and software development work — landing pages, bots, backend systems — while I keep building the messenger project in the background.",
+        "about.p3": "Right now I'm looking for freelance web and software development work — landing pages, bots, backend systems — while I keep shipping and hardening the apps already running on my own server.",
         "about.pr1.label": "ON SCOPE",
         "about.pr1.desc": "Ship the smallest working version first. A working demo beats a perfect plan.",
         "about.pr2.label": "ON INFRASTRUCTURE",
@@ -1134,7 +1139,7 @@
         "aria.terminal": "Terminal command input",
         "term.help": "available commands:\n  help          list commands\n  about         short bio\n  projects      transmission log\n  skills        stack & languages\n  contact       open a channel\n  whoami        identity check\n  sudo hire-me  elevated request\n  date          current datetime\n  clear         clear screen",
         "term.about": "Leyla — software engineering student at APU, Kuala Lumpur.\nVP of the Turkmen student society.\nBuilds systems that keep working under real constraints.\nOpen to freelance: sites, bots, backends.",
-        "term.projects": "1. Crypto Signal Bot                    [SHIPPED]\n2. SmartClinic — Clinic Management      [SHIPPED]\n3. Self-Hosted Server Infrastructure    [RUNNING]\n4. Messenger for Turkmenistan           [EARLY CONCEPT]",
+        "term.projects": "1. Crypto Signal Bot                    [SHIPPED]\n2. Family Finance                      [SHIPPED]\n3. MOBA Arena                          [SHIPPED]\n4. Self-Hosted Server Infrastructure    [RUNNING]",
         "term.skills": "Python · Node.js · Flutter · PostgreSQL\nWebRTC · Linux · self-hosting · async debugging\nEnglish · Russian",
         "term.contact": "EMAIL    leylaamamedova336@gmail.com\nGITHUB   github.com/LeylaMamedova\nLINKEDIN linkedin.com/in/leyla-mammedova",
         "term.whoami": 'guest — but you could be a client. type "contact".',
@@ -1166,20 +1171,21 @@
         "calc.note": "{n} моих приложений крутятся на одном сервере примерно на {pct}% дешевле, чем обошёлся бы облачный хостинг.",
         "projects.eyebrow": "ЖУРНАЛ ПЕРЕДАЧ",
         "projects.title": "Диспетчи",
-        "projects.intro": "Четыре сборки, четыре вида помех — нестабильный рынок, больничная бюрократия, счёт за сервер и одна идея ещё на чертеже. Каждая — задача маршрутизации в другой обёртке.",
+        "projects.intro": "Четыре сборки, четыре вида помех — нестабильный рынок, семейный бюджет, браузерная арена и счёт за сервер, который стал слишком громким. Каждая — задача маршрутизации в другой обёртке.",
         "p1.title": "Crypto Signal Bot",
         "p1.badge": "ВЫПУЩЕНО",
         "p1.desc": "Telegram-бот, который превращает webhook-алерты TradingView в уведомления о торговых сигналах в реальном времени. Пересобрала async event loop, чтобы не терять сообщения под нагрузкой, поправила баги с таймингом и добавила динамическое определение символов — работает с любым тикером без редеплоя.",
-        "p2.title": "SmartClinic — система управления клиникой",
+        "p2.title": "Family Finance",
         "p2.badge": "ВЫПУЩЕНО",
-        "p2.desc": "Система управления клиникой с четырьмя ролями — ресепшен, медсестра, врач и админ — в одном Python-приложении. Полный поток пациента от регистрации до рецепта. Университетский групповой проект.",
-        "p3.title": "Self-Hosted Server Infrastructure",
-        "p3.badge": "РАБОТАЕТ",
-        "p3.desc": "Перенесла пять с лишним проектов с Railway на домашний headless-сервер, когда облачные счета стали расти: подобрала железо, настроила хранилище и подняла Python-пайплайн сервисов с нуля.",
-        "p3.detail": 'Живут через Cloudflare Tunnel на <a href="https://leyla.website" target="_blank" rel="noopener">leyla.website</a>: trading-бот, игра Wirebound, multiplayer MOBA, планировщик и scanner-бот.',
-        "p4.title": "Мессенджер для Туркменистана",
-        "p4.badge": "РАННЯЯ ИДЕЯ",
-        "p4.desc": "Ранняя идея мессенджера, который мог бы работать в стране с жёсткими сетевыми ограничениями. Пока этап исследования и дизайна — набрасываю требования и архитектуру, ещё не построено.",
+        "p2.desc": "Готовое приложение семейных финансов для учёта общих бюджетов, расходов и трат между членами семьи — чтобы цифры оставались понятными, когда деньгами пользуются несколько человек.",
+        "p3.title": "MOBA Arena",
+        "p3.badge": "ВЫПУЩЕНО",
+        "p3.desc": "Браузерная multiplayer MOBA в духе Mobile Legends — выбор героя, комнаты, боты на пустых слотах, магазин предметов и живые матчи без установки.",
+        "p3.detail": 'Играть: <a href="https://mobile-legends.leyla.website" target="_blank" rel="noopener">mobile-legends.leyla.website</a>.',
+        "p4.title": "Self-Hosted Server Infrastructure",
+        "p4.badge": "РАБОТАЕТ",
+        "p4.desc": "Перенесла пять с лишним проектов с Railway на домашний headless-сервер, когда облачные счета стали расти: подобрала железо, настроила хранилище и подняла Python-пайплайн сервисов с нуля.",
+        "p4.detail": 'Живут через Cloudflare Tunnel на <a href="https://leyla.website" target="_blank" rel="noopener">leyla.website</a>: trading-бот, игра Wirebound, MOBA Arena, Family Finance и scanner-бот.',
         "term.eyebrow": "ИНТЕРАКТИВ",
         "term.title": "Запрос к системе",
         "term.intro": 'Эта часть отвечает. Наберите <code>help</code>, чтобы увидеть, что она знает.',
@@ -1189,7 +1195,7 @@
         "about.title": "Как я работаю",
         "about.p1": "Я студентка software engineering в APU в Куала-Лумпуре и вице-президент туркменского студенческого общества. <b>Большинство того, что я строю, начинается с ограничения, а не со списка фич</b> — страна, которая блокирует приложения, раздувшийся облачный счёт, рынок, который движется быстрее, чем человек успевает смотреть.",
         "about.p2": "Работаю быстро и близко к железу для self-taught инженера — спокойно читаю логи, дебажу async-код в два часа ночи и поднимаю свою инфраструктуру вместо ожидания платформы.",
-        "about.p3": "Сейчас ищу фриланс по веб и разработке ПО — лендинги, боты, бэкенд — параллельно продвигая мессенджер в фоне.",
+        "about.p3": "Сейчас ищу фриланс по веб и разработке ПО — лендинги, боты, бэкенд — параллельно дорабатывая приложения, которые уже крутятся на моём сервере.",
         "about.pr1.label": "О СКОУПЕ",
         "about.pr1.desc": "Сначала — минимальная рабочая версия. Рабочее демо бьёт идеальный план.",
         "about.pr2.label": "ОБ ИНФРАСТРУКТУРЕ",
@@ -1212,7 +1218,7 @@
         "aria.terminal": "Ввод команды терминала",
         "term.help": "доступные команды:\n  help          список команд\n  about         краткое био\n  projects      журнал передач\n  skills        стек и языки\n  contact       открыть канал\n  whoami        проверка личности\n  sudo hire-me  запрос с правами\n  date          текущие дата и время\n  clear         очистить экран",
         "term.about": "Лейла — студентка software engineering в APU, Куала-Лумпур.\nВице-президент туркменского студенческого общества.\nСтроит системы, которые держатся при реальных ограничениях.\nОткрыта к фрилансу: сайты, боты, бэкенд.",
-        "term.projects": "1. Crypto Signal Bot                    [ВЫПУЩЕНО]\n2. SmartClinic — Clinic Management      [ВЫПУЩЕНО]\n3. Self-Hosted Server Infrastructure    [РАБОТАЕТ]\n4. Мессенджер для Туркменистана         [РАННЯЯ ИДЕЯ]",
+        "term.projects": "1. Crypto Signal Bot                    [ВЫПУЩЕНО]\n2. Family Finance                      [ВЫПУЩЕНО]\n3. MOBA Arena                          [ВЫПУЩЕНО]\n4. Self-Hosted Server Infrastructure    [РАБОТАЕТ]",
         "term.skills": "Python · Node.js · Flutter · PostgreSQL\nWebRTC · Linux · self-hosting · async debugging\nEnglish · Russian",
         "term.contact": "EMAIL    leylaamamedova336@gmail.com\nGITHUB   github.com/LeylaMamedova\nLINKEDIN linkedin.com/in/leyla-mammedova",
         "term.whoami": 'guest — но вы можете стать клиентом. наберите "contact".',
